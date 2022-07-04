@@ -1,0 +1,509 @@
+{
+  "frmCrypt" : {
+    "btnCancel" : {
+      "Caption" : "Cancel"
+    },
+    "btnOk" : {
+      "Caption" : "OK"
+    },
+    "Caption" : "Encrypt PDF",
+    "cbAllowPrint" : {
+      "Caption" : "Allow print"
+    },
+    "cbShowOwnerPassword" : {
+      "Caption" : "Show",
+      "Left" : "296"
+    },
+    "cbShowUserPassword" : {
+      "Caption" : "Show",
+      "Left" : "296"
+    },
+    "cdAllowCopy" : {
+      "Caption" : "Allow copy text and graphics"
+    },
+    "cdAllowDocAssembly" : {
+      "Caption" : "Allow document assembly"
+    },
+    "cdAllowEdit" : {
+      "Caption" : "Allow edit"
+    },
+    "cdAllowEditNotes" : {
+      "Caption" : "Allow edit notes"
+    },
+    "cdAllowFillAndSign" : {
+      "Caption" : "Allow form fill and Sign"
+    },
+    "cdAllowHighPrint" : {
+      "Caption" : "Allow high resolution print"
+    },
+    "edtOwnerPassword" : {
+      "Left" : "80",
+      "Width" : "208"
+    },
+    "edtUserPassword" : {
+      "Left" : "80",
+      "Width" : "208"
+    },
+    "lblEncryptPdf" : {
+      "Caption" : "User password (for open PDF file)"
+    },
+    "lblOwner" : {
+      "Caption" : "Owner password (to change limits)"
+    },
+    "lblOwnerPassword" : {
+      "Caption" : "Password"
+    },
+    "lblPdfLimits" : {
+      "Caption" : "PDF limits"
+    },
+    "lblUserPassword" : {
+      "Caption" : "Password"
+    }
+  },
+  "frmEmbed" : {
+    "btnCancel" : {
+      "Caption" : "Cancel"
+    },
+    "btnCopyPassword" : {
+      "Caption" : "Copy password to open PDF",
+      "Left" : "184",
+      "Width" : "180"
+    },
+    "btnOk" : {
+      "Caption" : "OK"
+    },
+    "Caption" : "Archive source file",
+    "cbShowPassword" : {
+      "Caption" : "Show",
+      "Left" : "296"
+    },
+    "edtPassword" : {
+      "Left" : "80",
+      "Width" : "208"
+    },
+    "lblEncrypt" : {
+      "Caption" : "Encrypt"
+    },
+    "lblFormat" : {
+      "Caption" : "Active format"
+    },
+    "lblNoSpaces" : {
+      "Caption" : "No Spaces"
+    },
+    "lblPassword" : {
+      "Caption" : "Password"
+    }
+  },
+  "frmMain" : {
+    "btnLoadProfile" : {
+      "Caption" : "Load",
+      "Width" : "75"
+    },
+    "btnSaveProfile" : {
+      "Caption" : "Save",
+      "Left" : "283",
+      "Width" : "75"
+    },
+    "btnStart" : {
+      "Caption" : "Convert"
+    },
+    "cbACryptPdf" : {
+      "Caption" : "Encrypt PDF document"
+    },
+    "cbACustomPdfMeta" : {
+      "Caption" : "Change meta info"
+    },
+    "cbAIncludeSourceToPdf" : {
+      "Caption" : "Include source file to PDF as attachment"
+    },
+    "cbAMergePdf" : {
+      "Caption" : "Merge output documents to single PDF"
+    },
+    "cbAOpenDestFolder" : {
+      "Caption" : "Open output folder after convert"
+    },
+    "cbASavePdfInSourcePath" : {
+      "Caption" : "Save result PDF's in source folder"
+    },
+    "cbAZipCryptPdf" : {
+      "Caption" : "Zip / encrypt",
+      "Left" : "246"
+    },
+    "cbECalculateIfNeed" : {
+      "Caption" : "Recalculate formulas if automatic calculation is disabled"
+    },
+    "cbEDeleteHyperlinks" : {
+      "Caption" : "Delete hyperlinks before convert",
+      "Hint" : "Delete hyperlinks before convert.\nSome PDF viewers automatically add links\nalthough document do not contain is.",
+      "ShowHint" : "True"
+    },
+    "cbEIgnorePrintAreas" : {
+      "Caption" : "Ignore print areas"
+    },
+    "cbEIncludeDocProps" : {
+      "Caption" : "Document properties",
+      "Hint" : "Save document properties in PDF,\nlike as Title, Author name and other.",
+      "ShowHint" : "True"
+    },
+    "cbEUseISO19005" : {
+      "Caption" : "ISO 19005-1 compliant (PDF/A)",
+      "Hint" : "Use PDF/A format for storage of documents.",
+      "ShowHint" : "True"
+    },
+    "cbPHideSlide" : {
+      "Caption" : "Include hidden slides"
+    },
+    "cbPIncludeDocProps" : {
+      "Caption" : "Document properties",
+      "Hint" : "Save document properties in PDF,\nlike as Title, Author name and other.",
+      "ShowHint" : "True"
+    },
+    "cbPIncludeDocStruct" : {
+      "Caption" : "Document structure tags for accessibility"
+    },
+    "cbPPublishMode" : {
+      "Text" : "Slides\nHandouts\nNote pages\nOutline view"
+    },
+    "cbPRasterizeFonts" : {
+      "Caption" : "Bitmap text when fonts may not be embedded"
+    },
+    "cbPSlideBorder" : {
+      "Caption" : "Frame slides"
+    },
+    "cbPSlideWithMarkup" : {
+      "Caption" : "Include comments and ink markup"
+    },
+    "cbPUseISO19005" : {
+      "Caption" : "ISO 19005-1 compliant (PDF/A)",
+      "Hint" : "Use PDF/A format for storage of documents.",
+      "ShowHint" : "True"
+    },
+    "cbVColorAsBlack" : {
+      "Caption" : "Color as black",
+      "Hint" : "Converting to grayscale colors.",
+      "ShowHint" : "True"
+    },
+    "cbVIncludeBackground" : {
+      "Caption" : "Include background"
+    },
+    "cbVIncludeDocProps" : {
+      "Caption" : "Document properties",
+      "Hint" : "Save document properties in PDF,\nlike as Title, Author name and other.",
+      "ShowHint" : "True"
+    },
+    "cbVIncludeDocStruct" : {
+      "Caption" : "Document structure tags for accessibility"
+    },
+    "cbVUseISO19005" : {
+      "Caption" : "ISO 19005-1 compliant (PDF/A)",
+      "Hint" : "Use PDF/A format for storage of documents.",
+      "ShowHint" : "True"
+    },
+    "cbWDeleteHyperlinks" : {
+      "Caption" : "Delete hyperlinks before convert",
+      "Hint" : "Delete hyperlinks before convert.\nSome PDF viewers automatically add links although document do not contain is.",
+      "ShowHint" : "True"
+    },
+    "cbWIncludeBookmarks" : {
+      "Caption" : "Create bookmarks using:"
+    },
+    "cbWIncludeDocProps" : {
+      "Caption" : "Document properties",
+      "Hint" : "Save document properties in PDF,\nlike as Title, Author name and other.",
+      "ShowHint" : "True"
+    },
+    "cbWIncludeDocStruct" : {
+      "Caption" : "Document structure tags for accessibility"
+    },
+    "cbWRasterizeFonts" : {
+      "Caption" : "Bitmap text when fonts may not be embedded"
+    },
+    "cbWUpdateFields" : {
+      "Caption" : "Update all document fields",
+      "Hint" : "Update fields (like page numbers, links, current date and ather) before convert.\nChanges to the original file are not saved.",
+      "ShowHint" : "True"
+    },
+    "cbWUseISO19005" : {
+      "Caption" : "ISO 19005-1 compliant (PDF/A)",
+      "Hint" : "Use PDF/A format for storage of documents.",
+      "ShowHint" : "True"
+    },
+    "edtAExecAfter" : {
+      "Left" : "81",
+      "Width" : "385"
+    },
+    "edtAExecBefore" : {
+      "Left" : "81",
+      "Width" : "385"
+    },
+    "edtAPathToPdf" : {
+      "Left" : "81",
+      "Width" : "385"
+    },
+    "lblAExecAfter" : {
+      "Caption" : "Exec after"
+    },
+    "lblAExecBefore" : {
+      "Caption" : "Exec before"
+    },
+    "lblAExecHelp" : {
+      "Caption" : "%src - means the name of the source file, %pdf - name of the resulting PDF"
+    },
+    "lblAOutputPath" : {
+      "Caption" : "Output path"
+    },
+    "lblAPDFOptions" : {
+      "Caption" : "PDF options"
+    },
+    "lblEAdvanced" : {
+      "Caption" : "Advanced"
+    },
+    "lblEDocProperties" : {
+      "Caption" : "Include non-printing information"
+    },
+    "lblEPagesRange" : {
+      "Caption" : "Page range"
+    },
+    "lblEPDFOptions" : {
+      "Caption" : "PDF options"
+    },
+    "lblERangeFrom" : {
+      "Caption" : "From",
+      "Left" : "78"
+    },
+    "lblERangeTo" : {
+      "Caption" : "To",
+      "Left" : "185"
+    },
+    "lblESheetsRange" : {
+      "Caption" : "Publish what"
+    },
+    "lblPDocProps" : {
+      "Caption" : "Include non-printing information"
+    },
+    "lblPPagesRange" : {
+      "Caption" : "Range"
+    },
+    "lblPPDFOptions" : {
+      "Caption" : "PDF options"
+    },
+    "lblPPublish" : {
+      "Caption" : "Publish what:"
+    },
+    "lblPPublishMode" : {
+      "Caption" : "Publish options"
+    },
+    "lblPRangeFrom" : {
+      "Caption" : "From",
+      "Left" : "78"
+    },
+    "lblPRangeTo" : {
+      "Caption" : "To",
+      "Left" : "185"
+    },
+    "lblProfiles" : {
+      "Caption" : "Profiles:"
+    },
+    "lblPSlideOrder" : {
+      "Caption" : "Order"
+    },
+    "lblPSlidePerPage" : {
+      "Caption" : "Slides per page:"
+    },
+    "lblVColorProps" : {
+      "Caption" : "Colors"
+    },
+    "lblVDocProps" : {
+      "Caption" : "Include non-printing information"
+    },
+    "lblVPagesRange" : {
+      "Caption" : "Page range"
+    },
+    "lblVPDFOptions" : {
+      "Caption" : "PDF options"
+    },
+    "lblVRangeFrom" : {
+      "Caption" : "From",
+      "Left" : "78"
+    },
+    "lblVRangeTo" : {
+      "Caption" : "To",
+      "Left" : "185"
+    },
+    "lblWAdvanced" : {
+      "Caption" : "Advanced"
+    },
+    "lblWDocProps" : {
+      "Caption" : "Include non-printing information"
+    },
+    "lblWMarks" : {
+      "Caption" : "Publish what"
+    },
+    "lblWPagesRange" : {
+      "Caption" : "Page range"
+    },
+    "lblWPDFOptions" : {
+      "Caption" : "PDF options"
+    },
+    "lblWRangeFrom" : {
+      "Caption" : "From",
+      "Left" : "78"
+    },
+    "lblWRangeTo" : {
+      "Caption" : "To",
+      "Left" : "185"
+    },
+    "msgMergePdfName" : "Merged %d docs",
+    "msgMergeSrcName" : "Sources %d files",
+    "msgNewProfile" : "New profile",
+    "msgNewProfileName" : "Name for the new profile",
+    "msgOfficeNotFound" : "Microsoft Office applications not found or Office version is less than 2010, continuation of work is impossible.",
+    "pnlAExecTitle" : {
+      "Caption" : "Additional actions (for each file)"
+    },
+    "pnlAOutputTitle" : {
+      "Caption" : "Output"
+    },
+    "pnlProfiles" : {
+      "Width" : "362"
+    },
+    "rbEOptimizeForPrint" : {
+      "Caption" : "Standard quality (for printing)"
+    },
+    "rbEOptimizeForScreen" : {
+      "Caption" : "Minimum size (for screen)"
+    },
+    "rbEPrintActiveSheet" : {
+      "Caption" : "Active sheet(s)"
+    },
+    "rbEPrintBook" : {
+      "Caption" : "Entire workbook"
+    },
+    "rbERangeAll" : {
+      "Caption" : "All"
+    },
+    "rbERange" : {
+      "Caption" : "Page(s)"
+    },
+    "rbPOptimizeForPrint" : {
+      "Caption" : "Standard quality (for printing)"
+    },
+    "rbPOptimizeForScreen" : {
+      "Caption" : "Minimum size (for screen)"
+    },
+    "rbPRangeAll" : {
+      "Caption" : "All"
+    },
+    "rbPRange" : {
+      "Caption" : "Slide(s)"
+    },
+    "rbPSlideHor" : {
+      "Caption" : "Horizontal"
+    },
+    "rbPSlideVert" : {
+      "Caption" : "Vertical"
+    },
+    "rbVOptimizeForPrint" : {
+      "Caption" : "Standard quality (for printing)"
+    },
+    "rbVOptimizeForScreen" : {
+      "Caption" : "Minimum size (for screen)"
+    },
+    "rbVRangeActive" : {
+      "Caption" : "Current page"
+    },
+    "rbVRangeAll" : {
+      "Caption" : "All"
+    },
+    "rbVRange" : {
+      "Caption" : "Page(s)"
+    },
+    "rbWBookmarksByBookmarks" : {
+      "Caption" : "Word bookmarks"
+    },
+    "rbWBookmarksByHeading" : {
+      "Caption" : "Headings"
+    },
+    "rbWOptimizeForPrint" : {
+      "Caption" : "Standard quality (for printing)"
+    },
+    "rbWOptimizeForScreen" : {
+      "Caption" : "Minimum size (for screen)"
+    },
+    "rbWPrintDoc" : {
+      "Caption" : "Document"
+    },
+    "rbWPrintWithMarkup" : {
+      "Caption" : "Document showing markup"
+    },
+    "rbWRangeAll" : {
+      "Caption" : "All"
+    },
+    "rbWRange" : {
+      "Caption" : "Page(s)"
+    },
+    "seERangeFrom" : {
+      "Left" : "112"
+    },
+    "seERangeTo" : {
+      "Left" : "207"
+    },
+    "sePRangeFrom" : {
+      "Left" : "112"
+    },
+    "sePRangeTo" : {
+      "Left" : "207"
+    },
+    "seVRangeFrom" : {
+      "Left" : "112"
+    },
+    "seVRangeTo" : {
+      "Left" : "207"
+    },
+    "seWRangeFrom" : {
+      "Left" : "112"
+    },
+    "seWRangeTo" : {
+      "Left" : "207"
+    },
+    "tabSheetAdvanced" : {
+      "Caption" : "Advanced"
+    },
+    "tabSheetFiles" : {
+      "Caption" : "Files to process"
+    }
+  },
+  "frmMeta" : {
+    "btnCancel" : {
+      "Caption" : "Cancel"
+    },
+    "btnOk" : {
+      "Caption" : "OK"
+    },
+    "Caption" : "Change PDF metadata",
+    "cbAuthor" : {
+      "Caption" : "Author"
+    },
+    "cbCreationDate" : {
+      "Caption" : "Creation Date"
+    },
+    "cbCreator" : {
+      "Caption" : "Creator"
+    },
+    "cbKeywords" : {
+      "Caption" : "Keywords"
+    },
+    "cbModDate" : {
+      "Caption" : "Edit Date"
+    },
+    "cbProducer" : {
+      "Caption" : "Producer"
+    },
+    "cbTheme" : {
+      "Caption" : "Subject"
+    },
+    "cbTitle" : {
+      "Caption" : "Title"
+    }
+  }
+}

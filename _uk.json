@@ -1,0 +1,509 @@
+{
+  "frmCrypt" : {
+    "btnCancel" : {
+      "Caption" : "Скасувати"
+    },
+    "btnOk" : {
+      "Caption" : "OK"
+    },
+    "Caption" : "Зашифрувати PDF",
+    "cbAllowPrint" : {
+      "Caption" : "Дозволити друк"
+    },
+    "cbShowOwnerPassword" : {
+      "Caption" : "Показати",
+      "Left" : "288"
+    },
+    "cbShowUserPassword" : {
+      "Caption" : "Показати",
+      "Left" : "288"
+    },
+    "cdAllowCopy" : {
+      "Caption" : "Дозволити копіювання тексту та графіки"
+    },
+    "cdAllowDocAssembly" : {
+      "Caption" : "Дозволити додавання, видалення та поворот сторінок"
+    },
+    "cdAllowEdit" : {
+      "Caption" : "Дозволити редагування"
+    },
+    "cdAllowEditNotes" : {
+      "Caption" : "Дозволити редагування анотацій"
+    },
+    "cdAllowFillAndSign" : {
+      "Caption" : "Дозволити введення даних у форми"
+    },
+    "cdAllowHighPrint" : {
+      "Caption" : "Дозволити друк із високою роздільною здатністю"
+    },
+    "edtOwnerPassword" : {
+      "Left" : "64",
+      "Width" : "216"
+    },
+    "edtUserPassword" : {
+      "Left" : "64",
+      "Width" : "216"
+    },
+    "lblEncryptPdf" : {
+      "Caption" : "Пароль користувача (для відкриття документа)"
+    },
+    "lblOwner" : {
+      "Caption" : "Пароль власника (для зміни обмежень)"
+    },
+    "lblOwnerPassword" : {
+      "Caption" : "Пароль"
+    },
+    "lblPdfLimits" : {
+      "Caption" : "Обмеження дій"
+    },
+    "lblUserPassword" : {
+      "Caption" : "Пароль"
+    }
+  },
+  "frmEmbed" : {
+    "btnCancel" : {
+      "Caption" : "Скасувати"
+    },
+    "btnCopyPassword" : {
+      "Caption" : "Копіювати пароль для відкриття PDF",
+      "Left" : "141",
+      "Width" : "223"
+    },
+    "btnOk" : {
+      "Caption" : "OK"
+    },
+    "Caption" : "Архівувати вихідний файл",
+    "cbShowPassword" : {
+      "Caption" : "Показати",
+      "Left" : "288"
+    },
+    "edtPassword" : {
+      "Left" : "64",
+      "Width" : "216"
+    },
+    "lblEncrypt" : {
+      "Caption" : "Зашифрувати"
+    },
+    "lblFormat" : {
+      "Caption" : "Формат архіву"
+    },
+    "lblNoSpaces" : {
+      "Caption" : "Пробіли неприпустимі"
+    },
+    "lblPassword" : {
+      "Caption" : "Пароль"
+    }
+  },
+  "frmMain" : {
+    "btnLoadProfile" : {
+      "Caption" : "Завантажити",
+      "Width" : "91"
+    },
+    "btnSaveProfile" : {
+      "Caption" : "Зберегти",
+      "Left" : "299",
+      "Width" : "91"
+    },
+    "btnStart" : {
+      "Caption" : "Перетворити"
+    },
+    "cbACryptPdf" : {
+      "Caption" : "Зашифрувати документ"
+    },
+    "cbACustomPdfMeta" : {
+      "Caption" : "Змінити метадані"
+    },
+    "cbAIncludeSourceToPdf" : {
+      "Caption" : "Вбудувати файл оригінального документа у PDF"
+    },
+    "cbAMergePdf" : {
+      "Caption" : "Об'єднати результуючі документи в один PDF"
+    },
+    "cbAOpenDestFolder" : {
+      "Caption" : "Відкрити каталог із результуючими файлами після закінчення"
+    },
+    "cbASavePdfInSourcePath" : {
+      "Caption" : "Зберігати PDF у вихідному каталозі"
+    },
+    "cbAZipCryptPdf" : {
+      "Caption" : "Стиснути / зашифрувати",
+      "Left" : "306"
+    },
+    "cbECalculateIfNeed" : {
+      "Caption" : "Перерахувати формули, якщо у документі автоматичний розрахунок вимкнено"
+    },
+    "cbEDeleteHyperlinks" : {
+      "Caption" : "Удалити гіперсилки перед перетворенням",
+      "Hint" : "Видалення гіперпосилань перед перетворенням.\nДеякі програми перегляду PDF автоматично вставляють посилання, незважаючи на те, що в самому документі посилання немає.",
+      "ShowHint" : "True"
+    },
+    "cbEIgnorePrintAreas" : {
+      "Caption" : "Пропустити областi друку"
+    },
+    "cbEIncludeDocProps" : {
+      "Caption" : "Властивостi документа",
+      "Hint" : "Зберегти у PDF властивості документа Excel, такі як заголовок, ім'я автора та інше.",
+      "ShowHint" : "True"
+    },
+    "cbEUseISO19005" : {
+      "Caption" : "Сумiсний з ISO 19005-1 (PDF/A)",
+      "Hint" : "Формат PDF/A для архівного зберігання документів.",
+      "ShowHint" : "True"
+    },
+    "cbPHideSlide" : {
+      "Caption" : "Включити прихованi слайди"
+    },
+    "cbPIncludeDocProps" : {
+      "Caption" : "Властивостi документа",
+      "Hint" : "Зберегти у PDF властивості документа PowerPoint, такі як заголовок, ім'я автора та інше.",
+      "ShowHint" : "True"
+    },
+    "cbPIncludeDocStruct" : {
+      "Caption" : "Теги структури документа для полегшення пошуку"
+    },
+    "cbPPublishMode" : {
+      "Text" : "Слайди\nВидачi\nСторiнки нотаток\nПодання контуру"
+    },
+    "cbPRasterizeFonts" : {
+      "Caption" : "Перетворити текст на точковий рисунок, якщо не можна вбудувати шрифти"
+    },
+    "cbPSlideBorder" : {
+      "Caption" : "обрамлення слайдiв"
+    },
+    "cbPSlideWithMarkup" : {
+      "Caption" : "Включити примiтки та рукописнi виправлення"
+    },
+    "cbPUseISO19005" : {
+      "Caption" : "Сумiснiий з ISO 19005-1 (PDF/A)",
+      "Hint" : "Формат PDF/A для архівного зберігання документів.",
+      "ShowHint" : "True"
+    },
+    "cbVColorAsBlack" : {
+      "Caption" : "Чорним кольором",
+      "Hint" : "Перетворення на відтінки сірого.",
+      "ShowHint" : "True"
+    },
+    "cbVIncludeBackground" : {
+      "Caption" : "Включити тло"
+    },
+    "cbVIncludeDocProps" : {
+      "Caption" : "Властивостi документа",
+      "Hint" : "Зберегти у PDF властивості документа Visio, такі як заголовок, ім'я автора та інше.",
+      "ShowHint" : "True"
+    },
+    "cbVIncludeDocStruct" : {
+      "Caption" : "Теги структури документа для полегшення пошуку"
+    },
+    "cbVUseISO19005" : {
+      "Caption" : "Сумiснiий з ISO 19005-1 (PDF/A)",
+      "Hint" : "Формат PDF/A для архівного зберігання документів.",
+      "ShowHint" : "True"
+    },
+    "cbWDeleteHyperlinks" : {
+      "Caption" : "Удалити гіперсилки перед перетворенням",
+      "Hint" : "Видалення гіперсилки перед перетворенням.\nДеякі програми перегляду PDF автоматично вставляють посилання, незважаючи на те, що в самому документі посилання немає.",
+      "ShowHint" : "True"
+    },
+    "cbWIncludeBookmarks" : {
+      "Caption" : "Створити закладки за допомогою:"
+    },
+    "cbWIncludeDocProps" : {
+      "Caption" : "Властивостi документа",
+      "Hint" : "Зберегти у PDF властивості документа Word, такі як заголовок, ім'я автора та інше.",
+      "ShowHint" : "True"
+    },
+    "cbWIncludeDocStruct" : {
+      "Caption" : "Теги структури документа для полегшення пошуку"
+    },
+    "cbWRasterizeFonts" : {
+      "Caption" : "Перетворити текст на точковий рисунок, якщо не можна вбудувати шрифти"
+    },
+    "cbWUpdateFields" : {
+      "Caption" : "Примусово оновити усі поля документа",
+      "Hint" : "Оновлення полів (номери сторінок, посилання, поточна дата та інше) перед перетворенням.\nЗміни у вихідному файлі не зберігаються.",
+      "ShowHint" : "True"
+    },
+    "cbWUseISO19005" : {
+      "Caption" : "Сумiснiий з ISO 19005-1 (PDF/A)",
+      "Hint" : "Формат PDF/A для архівного зберігання документів.",
+      "ShowHint" : "True"
+    },
+    "edtAExecAfter" : {
+      "Left" : "111",
+      "Width" : "355"
+    },
+    "edtAExecBefore" : {
+      "Left" : "111",
+      "Width" : "355"
+    },
+    "edtAPathToPdf" : {
+      "Left" : "151",
+      "Width" : "315"
+    },
+    "lblAExecAfter" : {
+      "Caption" : "Виконати після"
+    },
+    "lblAExecBefore" : {
+      "Caption" : "Виконати перед"
+    },
+    "lblAExecHelp" : {
+      "Caption" : "%src - означає ім'я вихідного файлу, %pdf - ім'я результуючого PDF"
+    },
+    "lblAOutputPath" : {
+      "Caption" : "Каталог зберігання PDF"
+    },
+    "lblAPDFOptions" : {
+      "Caption" : "Опції PDF"
+    },
+    "lblEAdvanced" : {
+      "Caption" : "Додатково"
+    },
+    "lblEDocProperties" : {
+      "Caption" : "Включати недрукованi вiдомостi"
+    },
+    "lblEPagesRange" : {
+      "Caption" : "Дiапазон сторiнок"
+    },
+    "lblEPDFOptions" : {
+      "Caption" : "Параметри PDF"
+    },
+    "lblERangeFrom" : {
+      "Caption" : "Вiд",
+      "Left" : "86"
+    },
+    "lblERangeTo" : {
+      "Caption" : "Кому",
+      "Left" : "185"
+    },
+    "lblESheetsRange" : {
+      "Caption" : "Опублiкувати"
+    },
+    "lblPDocProps" : {
+      "Caption" : "Включати недрукованi вiдомостi"
+    },
+    "lblPPagesRange" : {
+      "Caption" : "Дiапазон"
+    },
+    "lblPPDFOptions" : {
+      "Caption" : "Параметри PDF"
+    },
+    "lblPPublish" : {
+      "Caption" : "Опублiкувати:"
+    },
+    "lblPPublishMode" : {
+      "Caption" : "Параметри публiкацii"
+    },
+    "lblPRangeFrom" : {
+      "Caption" : "Вiд",
+      "Left" : "86"
+    },
+    "lblPRangeTo" : {
+      "Caption" : "Кому",
+      "Left" : "185"
+    },
+    "lblProfiles" : {
+      "Caption" : "Профілі:"
+    },
+    "lblPSlideOrder" : {
+      "Caption" : "Порядок:"
+    },
+    "lblPSlidePerPage" : {
+      "Caption" : "слайдiв на сторiнцi:"
+    },
+    "lblVColorProps" : {
+      "Caption" : "Параметры цвета"
+    },
+    "lblVDocProps" : {
+      "Caption" : "Включати недрукованi вiдомостi"
+    },
+    "lblVPagesRange" : {
+      "Caption" : "Дiапазон сторiнок"
+    },
+    "lblVPDFOptions" : {
+      "Caption" : "Параметри PDF"
+    },
+    "lblVRangeFrom" : {
+      "Caption" : "Вiд",
+      "Left" : "86"
+    },
+    "lblVRangeTo" : {
+      "Caption" : "Кому",
+      "Left" : "185"
+    },
+    "lblWAdvanced" : {
+      "Caption" : "Додатково"
+    },
+    "lblWDocProps" : {
+      "Caption" : "Включати недрукованi вiдомостi"
+    },
+    "lblWMarks" : {
+      "Caption" : "Опублiкувати"
+    },
+    "lblWPagesRange" : {
+      "Caption" : "Дiапазон сторiнок"
+    },
+    "lblWPDFOptions" : {
+      "Caption" : "Параметри PDF"
+    },
+    "lblWRangeFrom" : {
+      "Caption" : "Вiд",
+      "Left" : "86"
+    },
+    "lblWRangeTo" : {
+      "Caption" : "Кому",
+      "Left" : "185"
+    },
+    "msgMergePdfName" : "Об'єднаний документ (%d)",
+    "msgMergeSrcName" : "Вихідні документи (%d)",
+    "msgNewProfile" : "Новий профіль",
+    "msgNewProfileName" : "Ім'я для нового профілю",
+    "msgOfficeNotFound" : "Не знайдено встановлених програм Microsoft Office або версія Office менше 2010, подальша робота неможлива.",
+    "pnlAExecTitle" : {
+      "Caption" : "Додаткові дії (для кожного файлу)"
+    },
+    "pnlAOutputTitle" : {
+      "Caption" : "Вывод"
+    },
+    "pnlProfiles" : {
+      "Width" : "394"
+    },
+    "rbEOptimizeForPrint" : {
+      "Caption" : "Oптимізувати для друку (максимальна якість)"
+    },
+    "rbEOptimizeForScreen" : {
+      "Caption" : "Oптимізувати для екрану (мінімальний розмір)"
+    },
+    "rbEPrintActiveSheet" : {
+      "Caption" : "Видiленi аркушi"
+    },
+    "rbEPrintBook" : {
+      "Caption" : "Уся книга"
+    },
+    "rbERangeAll" : {
+      "Caption" : "Усе"
+    },
+    "rbERange" : {
+      "Caption" : "Сторiнки"
+    },
+    "rbPOptimizeForPrint" : {
+      "Caption" : "Oптимізувати для друку (максимальна якість)"
+    },
+    "rbPOptimizeForScreen" : {
+      "Caption" : "Oптимізувати для екрану (мінімальний розмір)"
+    },
+    "rbPRangeAll" : {
+      "Caption" : "Усе"
+    },
+    "rbPRange" : {
+      "Caption" : "Слайд(и)"
+    },
+    "rbPSlideHor" : {
+      "Caption" : "По горизонталi"
+    },
+    "rbPSlideVert" : {
+      "Caption" : "По вертикалi"
+    },
+    "rbVOptimizeForPrint" : {
+      "Caption" : "Oптимізувати для друку (максимальна якість)"
+    },
+    "rbVOptimizeForScreen" : {
+      "Caption" : "Oптимізувати для екрану (мінімальний розмір)"
+    },
+    "rbVRangeActive" : {
+      "Caption" : "Поточна сторiнка"
+    },
+    "rbVRangeAll" : {
+      "Caption" : "Усi"
+    },
+    "rbVRange" : {
+      "Caption" : "Сторiнки"
+    },
+    "rbWBookmarksByBookmarks" : {
+      "Caption" : "Закладки Word"
+    },
+    "rbWBookmarksByHeading" : {
+      "Caption" : "Заголовки"
+    },
+    "rbWOptimizeForPrint" : {
+      "Caption" : "Oптимізувати для друку (максимальна якість)"
+    },
+    "rbWOptimizeForScreen" : {
+      "Caption" : "Oптимізувати для екрану (мінімальний розмір)"
+    },
+    "rbWPrintDoc" : {
+      "Caption" : "Документ"
+    },
+    "rbWPrintWithMarkup" : {
+      "Caption" : "Документ із виправленнями"
+    },
+    "rbWRangeAll" : {
+      "Caption" : "Усе"
+    },
+    "rbWRange" : {
+      "Caption" : "сторiнки"
+    },
+    "seERangeFrom" : {
+      "Left" : "112"
+    },
+    "seERangeTo" : {
+      "Left" : "223"
+    },
+    "sePRangeFrom" : {
+      "Left" : "112"
+    },
+    "sePRangeTo" : {
+      "Left" : "223"
+    },
+    "seVRangeFrom" : {
+      "Left" : "112"
+    },
+    "seVRangeTo" : {
+      "Left" : "223"
+    },
+    "seWRangeFrom" : {
+      "Left" : "112"
+    },
+    "seWRangeTo" : {
+      "Left" : "223"
+    },
+    "tabSheetAdvanced" : {
+      "Caption" : "Додатково"
+    },
+    "tabSheetFiles" : {
+      "Caption" : "Файли для обробки"
+    }
+  },
+  "frmMeta" : {
+    "btnCancel" : {
+      "Caption" : "Скасувати"
+    },
+    "btnOk" : {
+      "Caption" : "OK"
+    },
+    "Caption" : "Змінити метадані PDF",
+    "cbAuthor" : {
+      "Caption" : "Автор"
+    },
+    "cbCreationDate" : {
+      "Caption" : "Створено"
+    },
+    "cbCreator" : {
+      "Caption" : "Творець"
+    },
+    "cbKeywords" : {
+      "Caption" : "Ключові слова"
+    },
+    "cbModDate" : {
+      "Caption" : "Змінено"
+    },
+    "cbProducer" : {
+      "Caption" : "Автор PDF"
+    },
+    "cbTheme" : {
+      "Caption" : "Тема"
+    },
+    "cbTitle" : {
+      "Caption" : "Заголовок"
+    }
+  }
+}

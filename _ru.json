@@ -1,0 +1,509 @@
+{
+  "frmCrypt" : {
+    "btnCancel" : {
+      "Caption" : "Отмена"
+    },
+    "btnOk" : {
+      "Caption" : "OK"
+    },
+    "Caption" : "Зашифровать PDF",
+    "cbAllowPrint" : {
+      "Caption" : "Разрешить печать"
+    },
+    "cbShowOwnerPassword" : {
+      "Caption" : "Показать",
+      "Left" : "288"
+    },
+    "cbShowUserPassword" : {
+      "Caption" : "Показать",
+      "Left" : "288"
+    },
+    "cdAllowCopy" : {
+      "Caption" : "Разрешить копирование текста и графики"
+    },
+    "cdAllowDocAssembly" : {
+      "Caption" : "Разрешить добавление, удаление и поворот страниц"
+    },
+    "cdAllowEdit" : {
+      "Caption" : "Разрешить редактирование"
+    },
+    "cdAllowEditNotes" : {
+      "Caption" : "Разрешить редактирование аннотаций"
+    },
+    "cdAllowFillAndSign" : {
+      "Caption" : "Разрешить ввод данных в формы"
+    },
+    "cdAllowHighPrint" : {
+      "Caption" : "Разрешить печать в высоком разрешении"
+    },
+    "edtOwnerPassword" : {
+      "Left" : "64",
+      "Width" : "216"
+    },
+    "edtUserPassword" : {
+      "Left" : "64",
+      "Width" : "216"
+    },
+    "lblEncryptPdf" : {
+      "Caption" : "Пароль пользователя (для открытия документа)"
+    },
+    "lblOwner" : {
+      "Caption" : "Пароль владельца (для изменения ограничений)"
+    },
+    "lblOwnerPassword" : {
+      "Caption" : "Пароль"
+    },
+    "lblPdfLimits" : {
+      "Caption" : "Ограничение действий"
+    },
+    "lblUserPassword" : {
+      "Caption" : "Пароль"
+    }
+  },
+  "frmEmbed" : {
+    "btnCancel" : {
+      "Caption" : "Отмена"
+    },
+    "btnCopyPassword" : {
+      "Caption" : "Копировать пароль на открытие PDF",
+      "Left" : "141",
+      "Width" : "223"
+    },
+    "btnOk" : {
+      "Caption" : "OK"
+    },
+    "Caption" : "Архивировать исходный файл",
+    "cbShowPassword" : {
+      "Caption" : "Показать",
+      "Left" : "288"
+    },
+    "edtPassword" : {
+      "Left" : "64",
+      "Width" : "216"
+    },
+    "lblEncrypt" : {
+      "Caption" : "Зашифровать"
+    },
+    "lblFormat" : {
+      "Caption" : "Формат архива"
+    },
+    "lblNoSpaces" : {
+      "Caption" : "Пробелы недопустимы"
+    },
+    "lblPassword" : {
+      "Caption" : "Пароль"
+    }
+  },
+  "frmMain" : {
+    "btnLoadProfile" : {
+      "Caption" : "Загрузить",
+      "Width" : "83"
+    },
+    "btnSaveProfile" : {
+      "Caption" : "Сохранить",
+      "Left" : "291",
+      "Width" : "83"
+    },
+    "btnStart" : {
+      "Caption" : "Преобразовать"
+    },
+    "cbACryptPdf" : {
+      "Caption" : "Зашифровать документ"
+    },
+    "cbACustomPdfMeta" : {
+      "Caption" : "Изменить метаданные"
+    },
+    "cbAIncludeSourceToPdf" : {
+      "Caption" : "Внедрить файл оригинального документа в PDF"
+    },
+    "cbAMergePdf" : {
+      "Caption" : "Объединить результирующие документы в один PDF"
+    },
+    "cbAOpenDestFolder" : {
+      "Caption" : "Открыть каталог с результирующими файлами по окончании"
+    },
+    "cbASavePdfInSourcePath" : {
+      "Caption" : "Сохранять PDF в исходном каталоге"
+    },
+    "cbAZipCryptPdf" : {
+      "Caption" : "Сжать / зашифровать",
+      "Left" : "306"
+    },
+    "cbECalculateIfNeed" : {
+      "Caption" : "Пересчитать формулы, если в документе автоматический расчет отключен"
+    },
+    "cbEDeleteHyperlinks" : {
+      "Caption" : "Удалить гиперссылки перед конвертацией",
+      "Hint" : "Удаление гиперссылок перед преобразованием.\nНекоторые программы просмотра PDF автоматически вставляют ссылки, не смотря на то,\nчто в самом документе ссылки нет.",
+      "ShowHint" : "True"
+    },
+    "cbEIgnorePrintAreas" : {
+      "Caption" : "Не учитывать области печати"
+    },
+    "cbEIncludeDocProps" : {
+      "Caption" : "Свойства документа",
+      "Hint" : "Сохранить в PDF свойства документа Excel,\nтакие как заголовок, имя автора и прочее.",
+      "ShowHint" : "True"
+    },
+    "cbEUseISO19005" : {
+      "Caption" : "Совместимый с ISO 19005-1 (PDF/A)",
+      "Hint" : "Формат PDF/A для архивного хранения документов.",
+      "ShowHint" : "True"
+    },
+    "cbPHideSlide" : {
+      "Caption" : "включить скрытые слайды"
+    },
+    "cbPIncludeDocProps" : {
+      "Caption" : "Свойства документа",
+      "Hint" : "Сохранить в PDF свойства документа PowerPoint,\nтакие как заголовок, имя автора и прочее.",
+      "ShowHint" : "True"
+    },
+    "cbPIncludeDocStruct" : {
+      "Caption" : "Теги структуры документа для улучшения восприятия"
+    },
+    "cbPPublishMode" : {
+      "Text" : "Слайды\nВыдачи\nСтраницы заметок\nРежим структуры"
+    },
+    "cbPRasterizeFonts" : {
+      "Caption" : "Преобразовать текст в точечный рисунок, если невозможно внедрить шрифты"
+    },
+    "cbPSlideBorder" : {
+      "Caption" : "обрамление слайдов"
+    },
+    "cbPSlideWithMarkup" : {
+      "Caption" : "включить примечания и рукописные примечания"
+    },
+    "cbPUseISO19005" : {
+      "Caption" : "Совместимый с ISO 19005-1 (PDF/A)",
+      "Hint" : "Формат PDF/A для архивного хранения документов.",
+      "ShowHint" : "True"
+    },
+    "cbVColorAsBlack" : {
+      "Caption" : "Цвет как черный",
+      "Hint" : "Преобразование в оттенки серого.",
+      "ShowHint" : "True"
+    },
+    "cbVIncludeBackground" : {
+      "Caption" : "Включить фон"
+    },
+    "cbVIncludeDocProps" : {
+      "Caption" : "Свойства документа",
+      "Hint" : "Сохранить в PDF свойства документа Visio,\nтакие как заголовок, имя автора и прочее.",
+      "ShowHint" : "True"
+    },
+    "cbVIncludeDocStruct" : {
+      "Caption" : "Теги структуры документа для улучшения восприятия"
+    },
+    "cbVUseISO19005" : {
+      "Caption" : "Совместимый с ISO 19005-1 (PDF/A)",
+      "Hint" : "Формат PDF/A для архивного хранения документов.",
+      "ShowHint" : "True"
+    },
+    "cbWDeleteHyperlinks" : {
+      "Caption" : "Удаленить гиперссылки перед преобразованием",
+      "Hint" : "Удаление гиперссылок перед преобразованием.\nНекоторые программы просмотра PDF автоматически вставляют ссылки, не смотря на то, что в самом документе ссылки нет.",
+      "ShowHint" : "True"
+    },
+    "cbWIncludeBookmarks" : {
+      "Caption" : "Создать закладки, используя:"
+    },
+    "cbWIncludeDocProps" : {
+      "Caption" : "Свойства документа",
+      "Hint" : "Сохранить в PDF свойства документа Word,\nтакие как заголовок, имя автора и прочее.",
+      "ShowHint" : "True"
+    },
+    "cbWIncludeDocStruct" : {
+      "Caption" : "Теги структуры документа для улучшения восприятия"
+    },
+    "cbWRasterizeFonts" : {
+      "Caption" : "Преобразовать текст в точечный рисунок, если невозможно внедрить шрифты"
+    },
+    "cbWUpdateFields" : {
+      "Caption" : "Принудительно обновить все поля документа",
+      "Hint" : "Обновление полей (номера страниц, ссылки, текущая дата и прочее) перед преобразованием.\nИзменения в исходном файле не сохраняются.",
+      "ShowHint" : "True"
+    },
+    "cbWUseISO19005" : {
+      "Caption" : "Совместимый с ISO 19005-1 (PDF/A)",
+      "Hint" : "Формат PDF/A для архивного хранения документов.",
+      "ShowHint" : "True"
+    },
+    "edtAExecAfter" : {
+      "Left" : "111",
+      "Width" : "355"
+    },
+    "edtAExecBefore" : {
+      "Left" : "111",
+      "Width" : "355"
+    },
+    "edtAPathToPdf" : {
+      "Left" : "151",
+      "Width" : "315"
+    },
+    "lblAExecAfter" : {
+      "Caption" : "Выполнить после"
+    },
+    "lblAExecBefore" : {
+      "Caption" : "Выполнить перед"
+    },
+    "lblAExecHelp" : {
+      "Caption" : "%src - означает имя исходного файла, %pdf - имя результирующего PDF"
+    },
+    "lblAOutputPath" : {
+      "Caption" : "Каталог сохранения PDF"
+    },
+    "lblAPDFOptions" : {
+      "Caption" : "Опции PDF"
+    },
+    "lblEAdvanced" : {
+      "Caption" : "Дополнительно"
+    },
+    "lblEDocProperties" : {
+      "Caption" : "Включить непечатаемые данные"
+    },
+    "lblEPagesRange" : {
+      "Caption" : "Страницы"
+    },
+    "lblEPDFOptions" : {
+      "Caption" : "Параметры PDF"
+    },
+    "lblERangeFrom" : {
+      "Caption" : "с",
+      "Left" : "94"
+    },
+    "lblERangeTo" : {
+      "Caption" : "по",
+      "Left" : "185"
+    },
+    "lblESheetsRange" : {
+      "Caption" : "Опубликовать"
+    },
+    "lblPDocProps" : {
+      "Caption" : "Включить непечатаемые данные"
+    },
+    "lblPPagesRange" : {
+      "Caption" : "Диапазон"
+    },
+    "lblPPDFOptions" : {
+      "Caption" : "Параметры PDF"
+    },
+    "lblPPublish" : {
+      "Caption" : "Опубликовать:"
+    },
+    "lblPPublishMode" : {
+      "Caption" : "Параметры публикации"
+    },
+    "lblPRangeFrom" : {
+      "Caption" : "с",
+      "Left" : "94"
+    },
+    "lblPRangeTo" : {
+      "Caption" : "по",
+      "Left" : "185"
+    },
+    "lblProfiles" : {
+      "Caption" : "Профили:"
+    },
+    "lblPSlideOrder" : {
+      "Caption" : "Порядок:"
+    },
+    "lblPSlidePerPage" : {
+      "Caption" : "слайдов на странице:"
+    },
+    "lblVColorProps" : {
+      "Caption" : "Параметры цвета"
+    },
+    "lblVDocProps" : {
+      "Caption" : "Включить непечатаемые данные"
+    },
+    "lblVPagesRange" : {
+      "Caption" : "Страницы"
+    },
+    "lblVPDFOptions" : {
+      "Caption" : "Параметры PDF"
+    },
+    "lblVRangeFrom" : {
+      "Caption" : "с",
+      "Left" : "94"
+    },
+    "lblVRangeTo" : {
+      "Caption" : "по",
+      "Left" : "185"
+    },
+    "lblWAdvanced" : {
+      "Caption" : "Дополнительно"
+    },
+    "lblWDocProps" : {
+      "Caption" : "Включить непечатаемые данные"
+    },
+    "lblWMarks" : {
+      "Caption" : "Опубликовать"
+    },
+    "lblWPagesRange" : {
+      "Caption" : "Страницы"
+    },
+    "lblWPDFOptions" : {
+      "Caption" : "Параметры PDF"
+    },
+    "lblWRangeFrom" : {
+      "Caption" : "с",
+      "Left" : "94"
+    },
+    "lblWRangeTo" : {
+      "Caption" : "по",
+      "Left" : "185"
+    },
+    "msgMergePdfName" : "Объединенный документ (%d)",
+    "msgMergeSrcName" : "Исходные документы (%d)",
+    "msgNewProfile" : "Новый профиль",
+    "msgNewProfileName" : "Имя для нового профиля",
+    "msgOfficeNotFound" : "Не найдено установленных приложений Microsoft Office или версия Office меньше 2010, дальнейшая работа невозможна.",
+    "pnlAExecTitle" : {
+      "Caption" : "Дополнительные действия (для каждого файла)"
+    },
+    "pnlAOutputTitle" : {
+      "Caption" : "Вывод"
+    },
+    "pnlProfiles" : {
+      "Width" : "378"
+    },
+    "rbEOptimizeForPrint" : {
+      "Caption" : "Oптимизировать для печати (максимальное качество)"
+    },
+    "rbEOptimizeForScreen" : {
+      "Caption" : "Oптимизировать для экрана (минимальный размер)"
+    },
+    "rbEPrintActiveSheet" : {
+      "Caption" : "активные листы"
+    },
+    "rbEPrintBook" : {
+      "Caption" : "всю книгу"
+    },
+    "rbERangeAll" : {
+      "Caption" : "все"
+    },
+    "rbERange" : {
+      "Caption" : "страницы"
+    },
+    "rbPOptimizeForPrint" : {
+      "Caption" : "Oптимизировать для печати (максимальное качество)"
+    },
+    "rbPOptimizeForScreen" : {
+      "Caption" : "Oптимизировать для экрана (минимальный размер)"
+    },
+    "rbPRangeAll" : {
+      "Caption" : "все"
+    },
+    "rbPRange" : {
+      "Caption" : "слайды"
+    },
+    "rbPSlideHor" : {
+      "Caption" : "по горизонтали"
+    },
+    "rbPSlideVert" : {
+      "Caption" : "по вертикали"
+    },
+    "rbVOptimizeForPrint" : {
+      "Caption" : "Oптимизировать для печати (максимальное качество)"
+    },
+    "rbVOptimizeForScreen" : {
+      "Caption" : "Oптимизировать для экрана (минимальный размер)"
+    },
+    "rbVRangeActive" : {
+      "Caption" : "текущая страница"
+    },
+    "rbVRangeAll" : {
+      "Caption" : "все"
+    },
+    "rbVRange" : {
+      "Caption" : "страницы"
+    },
+    "rbWBookmarksByBookmarks" : {
+      "Caption" : "закладки Word"
+    },
+    "rbWBookmarksByHeading" : {
+      "Caption" : "заголовки"
+    },
+    "rbWOptimizeForPrint" : {
+      "Caption" : "Oптимизировать для печати (максимальное качество)"
+    },
+    "rbWOptimizeForScreen" : {
+      "Caption" : "Oптимизировать для экрана (минимальный размер)"
+    },
+    "rbWPrintDoc" : {
+      "Caption" : "документ"
+    },
+    "rbWPrintWithMarkup" : {
+      "Caption" : "документ с исправлениями"
+    },
+    "rbWRangeAll" : {
+      "Caption" : "все"
+    },
+    "rbWRange" : {
+      "Caption" : "страницы"
+    },
+    "seERangeFrom" : {
+      "Left" : "112"
+    },
+    "seERangeTo" : {
+      "Left" : "207"
+    },
+    "sePRangeFrom" : {
+      "Left" : "112"
+    },
+    "sePRangeTo" : {
+      "Left" : "207"
+    },
+    "seVRangeFrom" : {
+      "Left" : "112"
+    },
+    "seVRangeTo" : {
+      "Left" : "207"
+    },
+    "seWRangeFrom" : {
+      "Left" : "112"
+    },
+    "seWRangeTo" : {
+      "Left" : "207"
+    },
+    "tabSheetAdvanced" : {
+      "Caption" : "Дополнительно"
+    },
+    "tabSheetFiles" : {
+      "Caption" : "Файлы для обработки"
+    }
+  },
+  "frmMeta" : {
+    "btnCancel" : {
+      "Caption" : "Отмена"
+    },
+    "btnOk" : {
+      "Caption" : "OK"
+    },
+    "Caption" : "Изменить метаданные PDF",
+    "cbAuthor" : {
+      "Caption" : "Автор"
+    },
+    "cbCreationDate" : {
+      "Caption" : "Создан"
+    },
+    "cbCreator" : {
+      "Caption" : "Создатель"
+    },
+    "cbKeywords" : {
+      "Caption" : "Ключевые слова"
+    },
+    "cbModDate" : {
+      "Caption" : "Изменен"
+    },
+    "cbProducer" : {
+      "Caption" : "Создатель PDF"
+    },
+    "cbTheme" : {
+      "Caption" : "Тема"
+    },
+    "cbTitle" : {
+      "Caption" : "Заголовок"
+    }
+  }
+}
