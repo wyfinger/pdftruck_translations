@@ -357,6 +357,7 @@
     "msgMergeSrcName" : "Исходные документы (%d)",
     "msgNewProfile" : "Новый профиль",
     "msgNewProfileName" : "Имя для нового профиля",
+    "msgNoOpenedDocs" : "Открытые документы не найдены",
     "msgOfficeNotFound" : "Не найдено установленных приложений Microsoft Office или версия Office меньше 2010, дальнейшая работа невозможна.",
     "pnlAExecTitle" : {
       "Caption" : "Дополнительные действия (для каждого файла)"

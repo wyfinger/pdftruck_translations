@@ -357,6 +357,7 @@
     "msgMergeSrcName" : "Sources %d files",
     "msgNewProfile" : "New profile",
     "msgNewProfileName" : "Name for the new profile",
+    "msgNoOpenedDocs" : "No opened documents found",
     "msgOfficeNotFound" : "Microsoft Office applications not found or Office version is less than 2010, continuation of work is impossible.",
     "pnlAExecTitle" : {
       "Caption" : "Additional actions (for each file)"
