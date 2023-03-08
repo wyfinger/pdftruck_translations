@@ -14,6 +14,4 @@ Translations can contain not only string values, but also other properties of in
 
 Since internal work on translations is carried out in [tolgee.io](https://tolgee.io), original JSON files are also attached to INI files. You can directly edit them and then convert them to INI using the supplied `json2ini.exe` utility.
 
-Since internal work on translations is carried out in [tolgee.io](https://tolgee.io), original JSON files are also attached to INI files. You can directly edit and convert them to INI using the supplied `json2ini.exe` utility.
-
 We are waiting for your PR!
